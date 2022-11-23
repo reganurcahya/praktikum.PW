@@ -1,0 +1,59 @@
+body {
+    background-color: rgb(238, 238, 159);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#header {
+    background-color: tan; 
+    padding: 5px;
+    text-align: center;
+}
+
+#header blockquote {
+    background-color: gold;
+}
+
+h1 {
+    color: blue;
+}
+
+.nav {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.nav li {
+    padding: 3px;
+}
+
+.gambar {
+   display: flex;
+   justify-content: center;
+}
+.besar {
+    font-size: 40px;
+}
+
+/* koleksi */
+.koleksi {
+    display: flex;
+    justify-content: center;
+}
+
+.koleksi img {
+    width: 200px;
+}
+
+.promo {
+   
+    border: 3px dashed;
+    margin-top: 15px;
+    text-align: center;
+    padding: 15px;
+   
+}
+
+.promo h4, .promo ol {
+    text-align: left;
+}
